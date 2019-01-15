@@ -1,8 +1,25 @@
-.app-wrapper {
-  max-width: calc(768px + 16px * 2);
-  margin: 0 auto;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  // font-family: 'Montserrat', sans-serif;
+  font-family: 'Hind', sans-serif;
+}
+
+body.fontLoaded {
+  // font-family: 'Montserrat', sans-serif;
+  font-family: 'Hind', sans-serif;
+}
+.megasplash-container {
+  background: #ECECEC;
   display: flex;
-  min-height: 100%;
-  padding: 0 16px;
-  flex-direction: column;
+  justify-content: center;
+
+  .megasplash-home {
+    max-width: 1680px;    
+  }
 }

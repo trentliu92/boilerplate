@@ -1,0 +1,322 @@
+{
+  "key": "header-nav",
+  "mobile": [
+    {
+      "title": "Mission Statement",
+      "type": "link",
+      "src": ""
+    },
+    {
+      "title": "The Alliance",
+      "type": "link",
+      "src": ""
+    },
+    {
+      "title": "PR and News",
+      "type": "link",
+      "src": ""
+    },
+    {
+      "title": "Blog",
+      "type": "link",
+      "src": ""
+    },
+    {
+      "type": "span"
+    },
+    {
+      "title": "Membership Benefits",
+      "type": "link",
+      "src": ""
+    },
+    {
+      "title": "Membership Tiers",
+      "type": "link",
+      "src": ""
+    },
+    {
+      "title": "Standards and Technologies",
+      "type": "link",
+      "src": ""
+    },
+    {
+      "title": "Get Started",
+      "type": "button",
+      "src": ""
+    },
+    {
+      "type": "span"
+    },
+    {
+      "title": "Featured Products",
+      "type": "link",
+      "src": ""
+    },
+    {
+      "title": "Product Catalog",
+      "type": "link",
+      "src": ""
+    },
+    {
+      "type": "span"
+    },
+    {
+      "title": "FAQ",
+      "type": "link",
+      "src": "/support/faq"
+    },
+    {
+      "type": "span"
+    }
+  ],
+  "data": [
+    {
+      "title": "About",
+      "link": "/about",
+      "menu": [
+        {
+          "type": "link",
+          "title": "Mission Statement",
+          "src": "/about/mission-statement",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Our Staff",
+          "src": "/about/our-staff",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Our Members",
+          "src": "/about/our-members",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Our Board of Directors",
+          "src": "/about/our-board-of-directors",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "The Alliance",
+          "src": "/about/the-alliance",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "span"
+        },
+        {
+          "type": "link",
+          "title": "Blog",
+          "src": "",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "News & Events",
+          "src": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "title": "Learn",
+      "link": "/learn",
+      "menu": [
+        {
+          "type": "link",
+          "title": "Certification Benefits",
+          "src": "/learn/certification-benefits",
+          "hostname": "developer",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Paths to Certification",
+          "src": "/learn/paths-to-certification",
+          "hostname": "developer",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Membership Benefits",
+          "src": "/learn/membership-benefits",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Membership Tiers",
+          "src": "/learn/membership-tiers",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Steps to Membership",
+          "src": "/learn/steps-to-membership",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "span"
+        },
+        {
+          "type": "technologies"
+        },
+        {
+          "type": "span"
+        },
+        {
+          "type": "link",
+          "title": "Compliant Platforms",
+          "src": "/learn/compliant-platforms",
+          "hostname": "developer",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Product Catalog",
+          "src": "/learn/product-catalog",
+          "hostname": "developer",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "title": "Markets",
+      "link": "/markets",
+      "menu": [
+        {
+          "type": "link",
+          "title": "Smart Homes",
+          "src": "/markets/smart-homes",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Commercial",
+          "src": "/markets/commercial",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Utility",
+          "src": "/markets/utility",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Lighting",
+          "src": "/markets/lighting",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "link",
+          "title": "Retail Services",
+          "src": "/markets/retail-services",
+          "hostname": "members",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "title": "Support",
+      "link": "/support",
+      "menu": [
+        {
+          "type": "link",
+          "title": "FAQ",
+          "src": "/support/faq",
+          "hostname": "members",
+          "image": ""
+        },
+        {
+          "type": "span"
+        },
+        {
+          "type": "faq"
+        },
+        {
+          "type": "span"
+        },
+        {
+          "type": "contact"
+        }
+      ]
+    },
+    {
+      "title": "Search",
+      "link": "/",
+      "menu": [
+        {
+          "title": "Zigbee benefits",
+          "src": ""
+        },
+        {
+          "title": "Programs",
+          "src": ""
+        },
+        {
+          "title": "Why Zigbee",
+          "src": ""
+        },
+        {
+          "title": "The Alliance",
+          "src": ""
+        },
+        {
+          "title": "Zigbee 3.0",
+          "src": ""
+        },
+        {
+          "title": "dotdot",
+          "src": ""
+        },
+        {
+          "title": "Programs",
+          "src": ""
+        },
+        {
+          "title": "Zigbee Products",
+          "src": ""
+        },
+        {
+          "title": "Zigbee 3.0",
+          "src": ""
+        },
+        {
+          "title": "dotdot",
+          "src": ""
+        }
+      ]
+    },
+    {
+      "title": "Sign In",
+      "link": "/",
+      "menu": [
+        {
+          "label": "Already registered?",
+          "button": "Log in",
+          "src": ""
+        },
+        {
+          "label": "Need an account?",
+          "button": "Sign up",
+          "src": ""
+        }
+      ]
+    }
+  ]
+}

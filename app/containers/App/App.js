@@ -8,19 +8,17 @@
 
 import React from 'react';
 import { Helmet } from 'react-helmet';
-// import { Switch, Route } from 'react-router-dom';
-
+import Page from 'components/layout/Page';
+import HomePage from 'components/HomePage/HomePage';
 import './style.scss';
 
 const App = () => (
-  <div className="app-wrapper">
-    <Helmet
-      titleTemplate="%s - React.js Boilerplate"
-      defaultTitle="React.js Boilerplate"
-    >
-      <meta name="description" content="A React.js Boilerplate application" />
-    </Helmet>
-
+  <div className="megasplash-container">
+    <div className="megasplash-home">
+      <Page
+        component={<HomePage />}
+      />
+    </div>
   </div>
 );
 

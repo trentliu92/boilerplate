@@ -1,0 +1,9 @@
+{
+    "language": "lang=en",
+    "server": "http://35.168.136.209",
+    "status": "production",
+    "consumer": "dev.zigbee.com.s3-website-us-east-1.amazonaws.com",
+    "developer": "developer.zigbeealliance.org.s3-website-us-east-1.amazonaws.com",
+    "members": "members.zigbeealliance.org.s3-website-us-east-1.amazonaws.com",
+    "megasplash": ""
+}

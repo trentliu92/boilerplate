@@ -1,0 +1,49 @@
+.emailform {
+  display: flex;
+  flex-direction: row;
+}
+.hidden {
+  visibility: hidden;
+  height: 1px;
+  width: 1px;
+}
+input {
+    font-size: 36px;
+    width: 65%;
+    min-width: 300px;
+    padding: 5px;
+    border: solid 1px #194366;
+    border-radius: 2px;
+}
+input:focus {
+    border: solid 1px #194366;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.emailform-header-button-container {
+  display: flex;
+  flex-direction: row;
+}
+.emailform-container {
+
+  .emailform-input-outer {
+    padding-bottom: 1rem;
+  }
+}
+.emailform-left {
+  width: 45%;
+  padding: rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.emailform-right {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emailform-image {
+  width: 80%;
+}

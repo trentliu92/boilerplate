@@ -1,0 +1,124 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  z-index: 1;
+
+  @media all and (max-width: 1024px) {
+    .header-top {
+      padding: 2rem 2rem;
+    }
+  }
+  @media all and (min-width: 1025px) {
+    .header-top {
+      padding: 2rem 6rem;
+    }
+  }
+  .header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    .header-logo-link {
+      width: 100%;
+      max-width: 300px;
+      padding-right: 1rem;
+      z-index: 1;
+
+      #header-logo-invert {
+        filter: invert(100%);
+      }
+      .header-logo {
+        width: 100%;
+        min-width: 200px;
+        max-width: 450px;
+      }
+    }
+    @media all and (max-width: 768px) {
+      .nav-bar {
+        display: none;
+      }
+    }
+    @media all and (min-width: 769px) {
+      .nav-bar {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+      }
+    }
+    
+
+    .router-link {
+      display: inline-flex;
+      padding: 0.25em 2rem;
+      margin: 1rem;
+      text-decoration: none;
+      border-radius: 4px;
+      -webkit-font-smoothing: antialiased;
+      -webkit-touch-callout: none;
+      user-select: none;
+      cursor: pointer;
+      outline: 0;
+      font-weight: bold;
+      font-size: 16px;
+      // border: 2px solid #41ADDD;
+      color: black;
+
+      &:active {
+        background: black;
+        color: #FFF;
+      }
+    }
+  }
+  .header-bottom {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    .header-banner {
+      width: 100%;
+    }
+
+    .header-bottom-header-container {
+      position: absolute;
+      height: 100%;
+      padding-left: 6rem;
+      bottom: 0px;
+      display: flex;
+      align-items: center;
+
+      .header-bottom-header {
+        color: white;
+        font-size: 60px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+      }
+    }
+  }
+}
+.dropdown-hidden {
+  visibility: hidden;
+  top: -20px;
+  opacity: 0;
+}
+.dropdown-show {
+  top: 0;
+  opacity: 1;
+  visibility: show;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+@media all and (max-width: 768px) {
+  .header-hamburger {
+    display: inline;
+  }
+}
+@media all and (min-width: 769px) {
+  .header-hamburger {
+    display: none;
+  }
+}
