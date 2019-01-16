@@ -24,8 +24,8 @@ import Background from './images/home-top.svg';
 import TopImage from './images/Artboard 1 no borders 2.png';
 import MiddleImage from './images/Forum.png';
 import BottomImage from './images/Group 5902.svg';
-import BottomSemiCircle from './images/Mask Group 9.svg';
-import ContactBackground from './images/Mask Group 2 (1).svg';
+import BottomSemiCircle from './images/Mask Group 9.png';
+import ContactBackground from './images/EmailBackground.png';
 
 import './style.scss';
 
@@ -63,7 +63,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
           </div>
           <div className="text" id="top-text">
             <InfoBlock key={data[0].header} header={data[0].header} content={data[0].content} />
-            <a className="home-auth-button" href={`http://${config.consumer}`}>
+            <a className="home-auth-button" href={`http://${config.consumer}`} id="top-button">
               <img src={Button} className="home-auth-button-image" alt="" />
               <div className="home-auth-button-label">
                 Discover
@@ -74,7 +74,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
         <div className="info-tile" key={data[1].header}>
           <div className="text" id="middle-text">
             <InfoBlock key={data[1].header} header={data[1].header} content={data[1].content} />
-            <a className="home-auth-button" href={`http://${config.members}`}>
+            <a className="home-auth-button" href={`http://${config.members}`} id="middle-button">
               <img src={Button} className="home-auth-button-image" alt="" />
               <div className="home-auth-button-label">
                 Discover
@@ -92,7 +92,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
             </div>
             <div className="text" id="bottom-text">
               <InfoBlock key={data[2].header} header={data[2].header} content={data[2].content} />
-              <a className="home-auth-button" href={`http://${config.developer}`}>
+              <a className="home-auth-button" href={`http://${config.developer}`} id="bottom-button">
                 <img src={Button} className="home-auth-button-image" alt="" />
                 <div className="home-auth-button-label">
                   Discover
@@ -102,6 +102,14 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
             <div className="bottom-semicircle-image-container">
               <img src={BottomSemiCircle} className="bottom-semicircle-image" alt=""/>
             </div>
+          </div>
+          <div className="blog-section">
+            <div className="blog-header heading" >
+              Latest blog posts
+            </div>
+            <ul className="blog-post-container" >
+              { this.renderBlogPosts() }
+            </ul>
           </div>
         </div>
       </div>
@@ -189,16 +197,8 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
               null
           }
         </div>
-        <div className="blog-section" >
-          <div className="blog-header heading" >
-            Latest blog posts
-          </div>
-          <ul className="blog-post-container" >
-            { this.renderBlogPosts() }
-          </ul>
-          <div className="email-container">
-            <EmailForm />
-          </div>
+        <div className="email-container">
+          <EmailForm />
         </div>
       </div>
     );

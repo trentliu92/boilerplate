@@ -109,29 +109,37 @@ class EmailForm extends React.Component {
     }
     return (
       <div className="emailform">
-        <div className="emailform-left">
-          <h3 className="emailform-header heading">
-            Ready to get creative with IOT?
-          </h3>
-          <div className="emailform-header-button-container">
-            <Button src={''} label={'Learn More'} />
-            <Button src={''} label={'Join Zigbee'} />
-          </div>
-          <form className="emailform-container" action="https://securecircle.us16.list-manage.com/subscribe/post?u=33a53e69e067a89bd2dfe8cd9&amp;id=91b574707c" method={this.state.post} target="mailchimpframe">
-            {this.renderInput()}
-            <div className="emailform-bottom-button-container">
-              <Button src={''} label={'Submit'} type="submit" value="Subscribe" name="subscribe" onClick={() => this.clickSubscribe()} />
+        <div className="emailform-inner">
+          <div className="emailform-top">
+            <div className="emailform-header heading">
+              Ready to get creative with IOT?
             </div>
-            <iframe
-              title="mailchimpframe"
-              name="mailchimpframe"
-              className="hidden"
-            >
-            </iframe>
-          </form>
-        </div>
-        <div className="emailform-right">
-          <img alt="emailform-banner" className="emailform-image" src={AllianceLogo} />
+          </div>
+          <div className="emailform-bottom">
+            <div className="emailform-left">
+              <div className="emailform-header-button-container">
+                <Button src={''} label={'Learn More'} />
+                <Button src={''} label={'Join Zigbee'} />
+              </div>
+              <form className="emailform-container" action="https://securecircle.us16.list-manage.com/subscribe/post?u=33a53e69e067a89bd2dfe8cd9&amp;id=91b574707c" method={this.state.post} target="mailchimpframe">
+                {this.renderInput()}
+                <div className="emailform-bottom-button-container">
+                  <Button src={''} label={'Submit'} type="submit" value="Subscribe" name="subscribe" onClick={() => this.clickSubscribe()} />
+                </div>
+                <iframe
+                  title="mailchimpframe"
+                  name="mailchimpframe"
+                  className="hidden"
+                >
+                </iframe>
+              </form>
+            </div>
+            <div className="emailform-right">
+              <div className="emailform-right-image-container">
+                <img alt="emailform-banner" className="emailform-image" src={AllianceLogo} />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );

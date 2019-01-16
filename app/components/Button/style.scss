@@ -14,11 +14,11 @@
 .button-label {
   padding-left: 1rem;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 20px;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ED0544;
   &:hover {
     text-decoration: underline;
     cursor: pointer;
